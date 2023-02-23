@@ -14,5 +14,16 @@ public class Usuario {
         smartTv.desligar();
         System.out.println("Tv ligada ? "+ smartTv.ligada);
 
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
+        smartTv.aumentarVolume();
+        System.out.println("Volume: aumentou 3 "+ smartTv.volume);
+
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+        smartTv.diminuirVolume();
+        System.out.println("Volume: diminuiu 3 "+ smartTv.volume);
+
+
         }
 }
