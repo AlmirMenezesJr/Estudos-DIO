@@ -17,13 +17,22 @@ public class Usuario {
         smartTv.aumentarVolume();
         smartTv.aumentarVolume();
         smartTv.aumentarVolume();
+
+        smartTv.mudarDeCanal(13);
+        System.out.println("Canal: "+ smartTv.canal); 
         System.out.println("Volume: aumentou 3 "+ smartTv.volume);
 
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
         smartTv.diminuirVolume();
+        smartTv.aumentarCanal();
+        System.out.println("Canal: "+ smartTv.canal);
         System.out.println("Volume: diminuiu 3 "+ smartTv.volume);
-
+        
+        smartTv.diminuirVolume();
+        smartTv.diminuirCanal();
+        System.out.println("Canal: "+ smartTv.canal);
+        System.out.println("Volume: diminuiu 3 "+ smartTv.volume);
 
         }
 }
